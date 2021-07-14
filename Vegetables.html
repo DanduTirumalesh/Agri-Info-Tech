@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables</title>
+    <style>
+     .Tech{
+      background-image:url('images/bg1.jpg');
+      height: max-content;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 18px;
+  }
+  .title{
+      background: (0,0,0,0.5);
+      text-align: center;
+      color:orangered;
+      font-weight: inherit;
+      padding: 15px;
+      font-weight:bold;
+      font-variant:normal;
+      font-size: 50px;
+      font-family:caliberi;
+      
+  }
+  .items{
+    width: max-content;
+    margin: 20px;
+    border: 3px solid #184d41;
+    border-radius: 25px 25px 25px 25px;
+    display:inline-block;
+    margin-top: 25px;
+  }
+  .items:hover{
+      box-shadow: 0 0 10px 3px #184d47;
+  }
+  .images{
+    display:inline-block;
+   
+  }
+  .item-image-size{
+      height: 180px;
+      width: 300px;
+      padding: 10px;
+      margin: 5px;
+  }
+.description{
+    margin: 8px;
+    min-height: 20px;
+}
+.description b{
+   font-size: 23px;
+   color:lightseagreen;
+   font-family: bold;
+   text-align:center;
+}
+label{
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+file{
+    margin-left: 0px;
+}
+.item-select{
+    margin: 10px 0 0 0;   
+}
+.cart-btn{
+    border: 2px solid #184d47;
+    background:limegreen;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Buynow-btn{
+    border: 2px solid #184d47;
+    background:limegreen;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+input{
+    margin: 8px;
+    width: 32%;
+    border-radius: 5px 5px;
+
+}
+.price button{
+     color:lightgrey;
+     text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+      
+    </style>
+
+</head>
+<body>
+    <body>
+        <!-- vegetables title -->
+     <!-- <div class="container" id="vegetables"> -->
+         <div class="Tech">
+        <div class="title">VEGETABLES</div>
+    </div>
+      <!-- vegetables list begins here -->
+      <!-- ONIONS -->
+       <div class="items" >
+           <div class="images">
+           <img src="images/veg/onion.jpg.jpg" alt="" class="item-image-size"/>
+       </div>
+       <div class="description"> 
+           <b>Onions</b> <br/>
+           <div> <label for="S">Upload Farming Image</label></div>
+           <div>
+        <input type="file" name="image" id="S" accept="images/jpg">
+           </div>
+        <label>Qty:</label>
+        <select class="item-select">
+            <option>Select</option>
+            <option>500 grams</option>
+            <option>1 kilograms</option>
+            <option>2 kilograms</option>
+            <option>3 kilograms</option>
+            <option> 4 kilograms</option>
+            <option>Above 5 kilograms</option>
+        </select>  <br/>
+        <div class="price">
+            <b>Amount:</b>
+            <select class="item-select">
+                <option>Select</option>
+                <option>10/-</option>
+                <option>20/-</option>
+                <option>30/-</option>
+                <option>50/-</option>
+                <option>60/-</option>
+                <option>100/-</option>
+                <option> 120/-</option>
+                <option>Above 150/-</option>
+            </select>  <br/>
+            <!-- <input type="number" name="" id="" placeholder="Enter amount" required> -->
+        </div>
+        <button class="cart-btn"><a href="mycart.html">Add to cart</a> </button>
+        <button class="Buynow-btn"><a href="buynow.html">Buy Now</a></button>
+    </div>
+    </div>
+    <!-- TOMATO begins  -->
+     <div class="items" >
+        <div class="images">
+        <img src="images/veg/tomato.jpg.jpg" alt="" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Tomatoes</b> <br/>
+        <div> <label for="S">Upload Farming Image</label></div>
+        <div>
+          <input type="file" name="Image" id="S" accept="jpg">
+        </div>
+     <label>Qty:</label>
+     <select class="item-select">
+        <option>Select</option>
+         <option>500 grams</option>
+         <option>1 kilograms</option>
+         <option>2 kilograms</option>
+         <option>3 kilograms</option>
+         <option> 4 kilograms</option>
+         <option>Above 5 kilograms</option>
+     </select> <br/>
+     <div class="price">
+        <b>Amount:</b>
+        <select class="item-select">
+            <option>Select</option>
+            <option>10/-</option>
+            <option>20/-</option>
+            <option>30/-</option>
+            <option>50/-</option>
+            <option>60/-</option>
+            <option>100/-</option>
+            <option> 120/-</option>
+            <option>Above 150/-</option>
+        </select>  <br/>
+        <!-- <input type="number" name="" id="" placeholder="Enter amount" required> -->
+    </div>
+     <button class="cart-btn"> <a href="mycart.html"> Add to cart</a></button>
+     <button class="Buynow-btn"><a href="buynow.html">Buy Now</a></button>
+    </div>
+    </div>
+    <!-- BRINJAL begins -->
+    <div class="items" >
+        <div class="images">
+        <img src="images/veg/brinjal.jpg" alt="" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Brinjal</b> <br/>
+        <div> <label for="s">Upload Farming Image</label></div>
+        <div>
+          <input type="file" name="" id="s" accept="images/jpg">
+        </div>
+     <label>Qty:</label>
+     <select class="item-select">
+        <option>Select</option>
+         <option>500 grams</option>
+         <option>1 kilograms</option>
+         <option>2 kilograms</option>
+         <option>3 kilograms</option>
+         <option> 4 kilograms</option>
+         <option>Above 5 kilograms</option>
+     </select> <br/>
+     <div class="price">
+        <b>Amount:</b>
+        <select class="item-select">
+            <option>Select</option>
+            <option>10/-</option>
+            <option>20/-</option>
+            <option>30/-</option>
+            <option>50/-</option>
+            <option>60/-</option>
+            <option>100/-</option>
+            <option> 120/-</option>
+            <option>Above 150/-</option>
+        </select>  <br/>
+        <!-- <input type="number" name="" id="" placeholder="Enter amount" required> -->
+    </div>
+     <button class="cart-btn"><a href="mycart.html">Add to cart</a></button>
+     <button class="Buynow-btn" ><a href="buynow.html">Buy Now</a></button>
+    </div>
+    </div>
+    </div>
+    <!-- Chillis -->
+    <div class="items" >
+        <div class="images">
+        <img src="images/veg/chilli.jpg" alt="" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Chillis</b> <br/>
+        <div> <label for="s">Upload Farming Image</label></div>
+        <div>
+          <input type="file" name="" id="s" accept="images/jpg">
+        </div>
+     <label>Qty:</label>
+     <select class="item-select">
+        <option>Select</option>
+         <option>500 grams</option>
+         <option>1 kilograms</option>
+         <option>2 kilograms</option>
+         <option>3 kilograms</option>
+         <option> 4 kilograms</option>
+         <option>Above 5 kilograms</option>
+     </select>   <br/>
+     <div class="price">
+        <b>Amount:</b>
+        <select class="item-select">
+            <option>Select</option>
+            <option>10/-</option>
+            <option>20/-</option>
+            <option>30/-</option>
+            <option>50/-</option>
+            <option>60/-</option>
+            <option>100/-</option>
+            <option> 120/-</option>
+            <option>Above 150/-</option>
+        </select>  <br/>
+        <!-- <input type="number" name="" id="" placeholder="Enter amount" required> -->
+    </div>
+     <button class="cart-btn"><a href="mycart.html">Add to cart</a></button>
+     <button class="Buynow-btn"><a href="buynow.html">Buy Now</a></button>
+    </div>
+    </div>
+    </div>
+        <!-- Ladies finger -->
+    <div class="items" >
+        <div class="images">
+        <img src="images/veg/finger.jpg.jpg" alt="" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Ladies finger</b> <br/>
+        <div> <label for="s">Upload Farming Image</label></div>
+        <div>
+          <input type="file" name="" id="s" accept="images/jpg">
+        </div>
+     <label>Qty:</label>
+     <select class="item-select">
+        <option>Select</option>
+         <option>500 grams</option>
+         <option>1 kilograms</option>
+         <option>2 kilograms</option>
+         <option>3 kilograms</option>
+         <option> 4 kilograms</option>
+         <option>Above 5 kilograms</option>
+     </select> <br/>
+     <div class="price">
+        <b>Amount:</b>
+        <select class="item-select">
+            <option>Select</option>
+            <option>10/-</option>
+            <option>20/-</option>
+            <option>30/-</option>
+            <option>50/-</option>
+            <option>60/-</option>
+            <option>100/-</option>
+            <option> 120/-</option>
+            <option>Above 150/-</option>
+        </select>  <br/>
+        <!-- <input type="number" name="" id="" placeholder="Enter amount" required> -->
+    </div>
+     <button class="cart-btn"><a href="mycart.html">Add to cart</a></button>
+     <button class="Buynow-btn"><a href="buynow.html">Buy Now</a></button>
+    </div>
+    </div>
+    </div>
+    <!--Cabbage-->
+    <div class="items" >
+        <div class="images">
+        <img src="images/veg/cabbage.jpg.jpg" alt="" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Cabbage</b> <br/>
+        <div> <label for="s">Upload Farming Image</label></div>
+        <div>
+          <input type="file" name="Image" id="s" accept="images/jpg">
+        </div>
+     <label> Qty:</label>
+     <select class="item-select">
+        <option>Select</option>
+         <option>500 grams</option>
+         <option>1 kilograms</option>
+         <option>2 kilograms</option>
+         <option>3 kilograms</option>
+         <option> 4 kilograms</option>
+         <option>Above 5 kilograms</option>
+     </select> <br/>
+     <div class="price">
+        <b>Amount:</b>
+        <select class="item-select">
+            <option>Select</option>
+            <option>10/-</option>
+            <option>20/-</option>
+            <option>30/-</option>
+            <option>50/-</option>
+            <option>60/-</option>
+            <option>100/-</option>
+            <option> 120/-</option>
+            <option>Above 150/-</option>
+        </select>  <br/>
+        <!-- <input type="number" name="" id="" placeholder="Enter amount" required> -->
+    </div>
+     <button class="cart-btn"><a href="mycart.html">Add to cart</a></button>
+     <button class="Buynow-btn"> <a href="buynow.html">Buy Now</a></button>
+    </div>
+    </div>
+    </div>
+     <!-- vegetables list ends here --> 
+</body>
+</html>
