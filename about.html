@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 15px;
+  text-align: center;
+  background-color: #474e5d;
+  color:white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:gray;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+h2{
+    color: deeppink;
+}
+.card h2{
+    color:deepskyblue;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="about-section">
+        <h1>About Us </h1>
+    <p><b>agriinfotech</b> is an innovation project ,which helps for farmers to raise their business  <br>
+     n peak times  and also mitigate buyers to get fresh products  directly  from farm without Chemicals and pests.<br>
+         </p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+              <h2>Anjali Chimata</h2>
+              <p class="title" style="margin-left: 14px;"> <b>Team Leader</b></p>
+              <p class="title" style="margin-left: 12px;"> <b>Role</b></p>
+              <p style="margin-left: 4px;">Optimization, Wireframes modelling,cart page <br>Buynow pages
+                Ideas regarding content  paper work</p>
+              <p>agriinfotech@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        <!-- </div> -->
+      
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>NandaKishore Reddy</h2>
+              <p class="title" style="margin-left: 14px;"></p>Developer</p>
+              <p class="title" style="margin-left: 14px;"></p>Role</p>
+               <p style="margin-left: 4px;">Desginer, optimization elements in Nav-bar <br>
+                 Registration ,Login page,editing,Presentation</p>
+              <p>agriinfotech@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Tirumalesh Dandu</h2>
+              <p class="title" style="margin-left: 14px;">Developer</p>
+              <p class="title" style="margin-left: 14px;">Role</p>
+              <p style="margin-left: 4px;">Designer, Home page Categories,<br>
+                  added Bootstrap framework </p>
+              <p>agriinfotech@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+              <div class="container">
+                <h2>Pavanbabu Shekuri</h2>
+                <p class="title" style="margin-left: 14px;">Developer</p>
+                <p class="title" style="margin-left: 14px;">Role</p>
+                <p style="margin-left: 4px;"> Innovative ideas, Designed AboutUs page, <br> 
+                Presentation,Video editing</p>
+                <p>agriinfotech@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+</body>
+</html>
